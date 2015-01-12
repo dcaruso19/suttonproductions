@@ -1,0 +1,191 @@
+.btn-skin {
+color: white;
+background-color: #2289BC;
+border-color: black;
+}
+
+.intro .slogan h1 {
+color: #fff;
+line-height: 1.1em;
+margin-bottom: 20px;
+font-size: 70px;
+text-transform: none;
+}
+
+.intro .slogan p {
+color: #eee;
+margin-bottom: 50px;
+font-size: 28px;
+}
+
+h2{
+	color: #107FB7;
+	text-transform: none;
+}
+
+.home-section {
+padding-top: 75px;
+padding-bottom: 0px;
+display: block;
+position: relative;
+z-index: 120;
+}
+
+p {
+margin: 0 0 20px;
+font-size: 19px;
+line-height: 1.6em;
+}
+
+h5, .h5 {
+font-size: 20px;
+}
+
+.gn-menu-main a {
+display: block;
+height: 100%;
+color: #2289BC;
+text-decoration: none;
+cursor: pointer;
+}
+
+.gn-icon-menu::before {
+margin-left: -15px;
+vertical-align: -2px;
+width: 30px;
+height: 3px;
+background: #107FB7;
+box-shadow: 0 3px white, 0 -6px #107FB7, 0 -9px white, 0 -12px #107FB7;
+content: '';
+}
+
+.gn-icon-menu.gn-selected::before {
+background: #1CC6D3;
+box-shadow: 0 3px white, 0 -6px #1CC6D3, 0 -9px white, 0 -12px #1CC6D3;
+}
+
+.btn-skin:hover, .btn-skin:focus, .btn-skin:active, .btn-skin.active {
+color: #fff;
+background-color: #1CC6D3;
+border-color: #666;
+}
+
+.gn-menu-main a {
+display: block;
+height: 100%;
+color: #0A4E6F;
+text-decoration: none;
+cursor: pointer;
+}
+
+footer {
+background-color: #0A4E6F;
+}
+
+a, .tp-caption a.btn:hover {
+color: #2289BC;
+}
+
+a:hover, a:focus {
+text-decoration: none;
+color: #48C2FF;
+}
+
+.section-heading .btn {
+color: #FFF;
+background: #2289BC;
+text-decoration: none;
+}
+
+.btn:hover, .btn:focus {
+color: #333;
+text-decoration: none;
+background: #1CC6D3;
+}
+
+.company-social .social-facebook a {
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.company-social .social-twitter a {
+color: #FFFFFF;
+cursor: pointer;
+}
+.company-social .social-google a {
+color: #FFFFFF;
+cursor: pointer;
+}
+
+form#contact-form input:focus, form#contact-form select:focus, form#contact-form textarea:focus {
+border-color: #00ADFF;
+}
+
+
+img.img-responsive{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+
+footer a:hover {
+color: #00EDFF;
+}
+
+footer a {
+color: #48C2FF;
+}
+
+img.video-icon{
+	max-height: 38px;
+	max-width: 39px;
+
+}
+
+p {
+margin: 0 0 20px;
+font-size: 22px;
+line-height: 1.6em;
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+.intro .slogan h1 {
+color: #fff;
+line-height: 1.1em;
+margin-bottom: 20px;
+font-size: 40px;
+text-transform: none;
+}
+
+a.sutton-open{
+	display: none;
+}
+
+.section-heading h2 {
+font-size: 34px;
+}
+
+p {
+margin: 0 0 20px;
+font-size: 18px;
+line-height: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
