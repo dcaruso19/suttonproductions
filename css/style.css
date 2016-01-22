@@ -95,6 +95,13 @@ hr {
 	margin-bottom: 20px;
 }
 
+div.reel{
+	  margin-top: 8rem;
+}
+
+div.reel-mobile{
+	display: none;
+}
 
 /* --- section bg var --- */
 
@@ -891,5 +898,18 @@ footer a:hover {
 		padding:170px 0 60px;
 		
 	}
+
+	div.reel-mobile{
+	display: initial;
+	margin-top: 8rem;
+}
+
+	div.reel-mobile iframe{
+	margin-top: 8rem;
+}
+
+	div.reel{
+	display: none;
+}
 	
 }
